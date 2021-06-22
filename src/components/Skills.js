@@ -23,7 +23,7 @@ class Skills extends Component {
   render() {
     return (
       <Draggable>
-        <div id="skills_window" onClick={this.onTriggerTwo} style={{zIndex: this.props.data}} draggable>
+        <div id="skills_window" onClick={this.onTriggerTwo} style={{zIndex: this.props.data}}>
           <div id="top_border_skills">
             <p>Skills.exe</p>
             <button id="close_btn" onClick={this.onTrigger} alt="close">
