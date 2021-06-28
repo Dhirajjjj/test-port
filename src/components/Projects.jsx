@@ -23,7 +23,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <Draggable handle="#top_border_projects">
+      <Draggable handle="#top_border_projects" bounds="body>
         <div id="projects_window" onClick={this.onTriggerTwo} style={{zIndex: this.props.data}}>
           <div id="top_border_projects">
             <p>Projects.exe</p>
