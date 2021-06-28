@@ -22,14 +22,14 @@ class Skills extends Component {
 
   render() {
     return (
-      <Draggable>
+      <Draggable handle="top_border_skills">
         <div id="skills_window" onClick={this.onTriggerTwo} style={{zIndex: this.props.data}}>
           <div id="top_border_skills">
             <p>Skills.exe</p>
-            <button id="close_btn" onClick={this.onTrigger} alt="close">
-              X
-            </button>
           </div>
+            <button id="close_btn" onClick={this.onTrigger} alt="close">
+               &#x2715;
+            </button>
           <div id="content_skills">
             <ul class="list">
               <li>Python</li>
