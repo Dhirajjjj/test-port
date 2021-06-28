@@ -23,7 +23,7 @@ class About extends Component {
 
   render() {
     return (
-      <Draggable handle="#top_border_contact" bounds="body> 
+      <Draggable handle="#top_border_contact" bounds="body"> 
         <div id="contact_window" onClick={this.onTriggerTwo} style={{zIndex: this.props.data}}>
           <div id="top_border_contact">
             <p>Contact.exe</p>
