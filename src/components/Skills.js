@@ -22,7 +22,7 @@ class Skills extends Component {
 
   render() {
     return (
-      <Draggable handle="#top_border_skills">
+      <Draggable handle="#top_border_skills" bounds="body>
         <div id="skills_window" onClick={this.onTriggerTwo} style={{zIndex: this.props.data}}>
           <div id="top_border_skills">
             <p>Skills.exe</p>
