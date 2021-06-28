@@ -23,14 +23,14 @@ class Projects extends Component {
 
   render() {
     return (
-      <Draggable>
+      <Draggable handle="top_border_projects">
         <div id="projects_window" onClick={this.onTriggerTwo} style={{zIndex: this.props.data}}>
           <div id="top_border_projects">
             <p>Projects.exe</p>
-            <button id="close_btn" onClick={this.onTrigger}>
-              X
-            </button>
           </div>
+          <button id="close_btn" onClick={this.onTrigger}>
+               &#x2715;
+            </button>
           <div id="content">
           </div>
         </div>
